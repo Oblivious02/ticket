@@ -19,7 +19,7 @@ class CitiesSeeder extends Seeder
                 'country_id' => 65
             ]
         ];
-        
-        DB::insert($cities);
+
+        DB::table('cities')->insert($cities);
     }
 }
